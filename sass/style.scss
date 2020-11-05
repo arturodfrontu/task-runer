@@ -56,7 +56,7 @@ nav {
             transition: ease 0.3s;
    
             a {
-            color: $primary-font-color;
+                 color: $primary-font-color;
             }
         }
     }
@@ -70,6 +70,7 @@ nav {
     align-items: center;
     flex-direction: column;
     margin: auto;
+
     .invitation {
         font-family: $special-font;
         color: $secondary-font-color;
@@ -77,6 +78,7 @@ nav {
         font-weight: 400;
         letter-spacing: 2px;
     }
+
     .slogan {
         font-family: $basic-font;
         color: $secondary-font-color;
@@ -85,6 +87,7 @@ nav {
         letter-spacing: 2px;
         padding: 20px 0;
     }
+
     .cta-btn {
         display: flex;
         width: 150px;
@@ -95,9 +98,9 @@ nav {
         font-family: $basic-font;
         justify-content: center;
         align-items: center;
+
         &:hover {
             color: $primary-font-color;
         }
-        
     }
 }
